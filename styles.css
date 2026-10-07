@@ -334,18 +334,19 @@ p {
   padding-block: clamp(3rem, 12vw, 9rem) clamp(4rem, 14vw, 10rem);
 }
 
+.hero__banner {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  margin-bottom: clamp(2rem, 5vw, 3.5rem);
+}
+
 .hero__tagline {
   max-width: 14ch;
   font-size: clamp(2.75rem, 11vw, 8rem);
   font-weight: 500;
   line-height: 1.02;
   letter-spacing: -0.035em;
-}
-
-.hero__logo {
-  width: min(100%, 30rem);
-  height: auto;
-  margin-top: clamp(2rem, 5vw, 3.5rem);
 }
 
 /* --------------------------------------------------------------------------
